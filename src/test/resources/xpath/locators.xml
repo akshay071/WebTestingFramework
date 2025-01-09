@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <screen screenId="Home">
+        <object objectName="GoogleSearchField">
+            <xpath>//textarea[@aria-label='Search']</xpath>
+        </object>
+
+        <object objectName="GoogleSearchButton">
+            <xpath>(//input[@class='gNO89b'])[2]</xpath>
+        </object>
+
+        <object objectName="GoogleCalloutFrame">
+            <xpath>//iframe[@name='callout']</xpath>
+        </object>
+
+        <object objectName="StaySignoutButton">
+            <xpath>//button[text()='Stay signed out']</xpath>
+        </object>
+
+        <object objectName="firstOption">
+            <xpath>//div[@class='pcTkSc']/div[@aria-label='chatgpt']</xpath>
+        </object>
+    </screen>
+</locators>
